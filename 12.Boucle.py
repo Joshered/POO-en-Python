@@ -25,9 +25,17 @@ for nom in range(1,10) :
 '''
 
 #boucle while
+'''
 capacite_maximale = 10
 capacite_actualle = 3
 
 while capacite_actualle < capacite_maximale:
     print(f"la capacite actuelle est {capacite_actualle}")
     capacite_actualle +=1
+'''
+#break
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
