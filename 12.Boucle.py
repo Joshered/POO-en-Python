@@ -34,8 +34,15 @@ while capacite_actualle < capacite_maximale:
     capacite_actualle +=1
 '''
 #break
+'''
 for i in range(10):
     if i == 5:
         break
     print(i)
-
+'''
+#continue
+liste = [1,2,3,4,5]
+for element in liste:
+    if element == 3:
+        continue
+    print(element)
