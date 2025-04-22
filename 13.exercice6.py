@@ -1,6 +1,6 @@
 #Demandez à l'utilisateur de fournir deux nombres avec la fonction input. Stockez ces valeurs dans nombre1 et nombre2.
-nombre1=input("entrez le prremier nombre")
-nombre2=input("entrez le deuxieme nombre")
+nombre1=input("entrez le prremier nombre ")
+nombre2=input("entrez le deuxieme nombre ")
 resultat=0
 
 #nombre1 et nombre2 sont des chaînes de caractères (str). Utilisez la fonction isnumeric (explication de la fonction) pour vérifier que ce sont des nombres.
@@ -13,7 +13,7 @@ resultat=0
 if (nombre1.isnumeric() and nombre2.isnumeric()):
     nombre1=int(nombre1)
     nombre2=int(nombre2)
-    operation=input("Quelle operation souhaitez-vous utilisez?")
+    operation=input("Quelle operation souhaitez-vous utilisez? ")
     if(operation in ("+","-","*","/",)):
         if(operation=="+"):
             resultat=nombre1+nombre2
