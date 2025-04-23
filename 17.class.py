@@ -7,3 +7,6 @@ class rectangle:
 
     def calculer_surface(self):
         return self.largeur * self.hauteur
+
+rectangle=rectangle(2,3)
+print(rectangle.largeur)
