@@ -6,7 +6,7 @@ class rectangle:
 
 
     def calculer_surface(self):
-        return self.largeur * self.hauteur
+        return self.largeur * self.largeur
 
 rectangle=rectangle(2,3)
-print(rectangle.largeur)
+print(f"il a comme couleur \"{rectangle.couleur}\" et a comme surface: {rectangle.calculer_surface()}")
