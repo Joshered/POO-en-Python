@@ -17,4 +17,4 @@ class Coffee(Drink):
         print(f"Un bon café de {self.type} qui coute {self.price}$ pour me reveiller !")
         
 coffee = Coffee("allonge")
-boire= Coffee.drink()
+boire= coffee.drink()
