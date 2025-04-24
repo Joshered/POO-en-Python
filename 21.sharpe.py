@@ -19,10 +19,13 @@ class Triangle(Sharpe):
     def area(self):
         return (self.base*self.hauteur)/2
     
-square = Square(4)
-square_area=square.area()
-print(square_area)
+# square = Square(4)
+# square_area=square.area()
+# print(square_area)
 
 triangle=Triangle(5,7)
 print(triangle.area())
+
+triangle2=Triangle(10,15)
+print(triangle2.area())
     
