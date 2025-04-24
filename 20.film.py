@@ -6,13 +6,19 @@ class Film:
         print("Bon visionnage !")
         
 class FilmCassette(Film):
-    pass
+    def __init__(self, name):
+        self.name=name
+        self.magnetic_tape=True
+    
+    def rewind(self):
+        print("cest long à rebobiner")
+        self.magnetic_tape=True
+        
 
 film=Film("2001: l'odyssee de l'espace")
 film_cassette = FilmCassette("Bande runner")
 
-film.name
-film.watch()
-
-film_cassette.name
+print(film_cassette.name)
+print(film_cassette.magnetic_tape)
 film_cassette.watch()
+film_cassette.rewind()
