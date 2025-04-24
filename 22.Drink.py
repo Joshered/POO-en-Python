@@ -9,7 +9,7 @@ class Drink:
 class Coffee(Drink):
     prices={"simple":1,"serre":1,"allongé":1.5}
     
-    def __init__(self, price):
+    def __init__(self, type):
         self.type=type
         super().__init__(price=self.prices.get(type,1))
         
